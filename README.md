@@ -1,6 +1,6 @@
 # Nagios Chef Cookbook with nginx support
 
-Supports nginx as a default, apache with `node['nagios']['web_server'] = 'apache'`
+Supports nginx as a default, apache with `{ 'nagios': { 'web_server': 'apache'} }` in your chef json setup file
 
 ## Installation
 
